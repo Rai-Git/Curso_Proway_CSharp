@@ -16,6 +16,7 @@ namespace Modulo2.models
 
         public byte Idade
         {
+            
             get { return _idade; }
             set { if (value > 0) { this._idade = value; } else { this._idade = 1; } }
         }
